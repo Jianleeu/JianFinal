@@ -283,9 +283,25 @@ button:hover{
 	
 }
 
+.contact-button a{
+	font-size: 2rem;
+	font-weight: 600;
+	width: 50rem;
+	height: 4rem;
+	padding: 3px;
+	color: #004E8F;
+	cursor: pointer;
+	background-color: transparent;
+	background-repeat: repeat-x;
+	background-position: 0-100%;
+	transition: 0.5s ease-out;}
 
-
-
+.contact-button a:hover{
+	background-position: center;
+	font-size: 30px;
+	color: #0A0E2B;
+	
+}
 
 @media screen and (max-width:766px) {
     .gallery-grid-wrapper {
@@ -347,6 +363,11 @@ button:hover{
 
 .social-media a{
 	padding: 20px;
+	
+}
+.social-media:hover{
+	cursor: pointer;
+	width: 50px
 	
 }
 
