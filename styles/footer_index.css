@@ -1,0 +1,19 @@
+footer {
+
+    padding: 1rem;
+    height: 214px;
+    font-size: 28px;
+    background: grey;
+    color: #fff;
+}
+
+@media (min-width:767px) {
+    footer {
+        margin-bottom: 0;
+        padding: 1rem;
+        height: 104px;
+        font-size: 28px;
+        background: grey;
+        color: #fff;
+    }
+}
