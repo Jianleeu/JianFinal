@@ -263,16 +263,16 @@ body {
 	height: 4rem;
 	padding: 3px;
 	border-radius: 25px;
-	color: #004E8F;
+	color: #4993D0;
 	border: 5px solid #2143B4;
 	cursor: pointer;
 	background-color: transparent;
-	background-image:url("images/button.png");
 	background-repeat: repeat-x;
 	background-position: 0-100%;
 	transition: 0.5s ease-out;
 	margin-left: 350px;
 	margin-bottom: 50px;
+	text-decoration: none
 	
 }
 
@@ -280,6 +280,7 @@ button:hover{
 	background-position: center;
 	font-size: 30px;
 	color: #0A0E2B;
+	border: 3px solid #2143B4;
 	
 }
 
@@ -299,7 +300,7 @@ button:hover{
 .contact-button a:hover{
 	background-position: center;
 	font-size: 30px;
-	color: #0A0E2B;
+	color: #fff;
 	
 }
 
